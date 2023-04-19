@@ -6,9 +6,6 @@
 hostname = dj.palmestore.com
 *************************************/
 
-#!name=得间小说
-#!desc=解锁得间小说会员
-
 var chxm1023 = JSON.parse($response.body);
 
 chxm1023.body.userInfo.unlockVipInfo = {
