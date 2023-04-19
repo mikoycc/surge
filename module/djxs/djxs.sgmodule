@@ -6,6 +6,8 @@
 hostname = dj.palmestore.com
 *************************************/
 
+#!name=得间小说
+#!desc=解锁得间小说会员
 
 var chxm1023 = JSON.parse($response.body);
 
@@ -23,6 +25,5 @@ chxm1023.body.userInfo.vipInfo = {
         "description" : "开通会员",
         "fullScreen" : "https://dj.palmestore.com/zytc/public/index.php?ca=FreeVip.Index&showContentInStatusBar=1&source=mine",
         "vipExpire" : 4092599349};
-
 
 $done({body : JSON.stringify(chxm1023)});
