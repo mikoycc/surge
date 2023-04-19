@@ -1,5 +1,5 @@
 #!name=流媒体解锁检测
-#!desc=Update-2023.2.20
+#!desc=Youtube/Netflix/Disney
 #!system=ios
 
 [Panel]
@@ -8,4 +8,4 @@ Stream-All-2 = script-name=Stream-All-2, title="流媒体解锁检测", content=
 
 [Script]
 # > 流媒体解锁检测
-Stream-All-2 = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/w164955/Config/main/JavaScript/Stream-All-2.js
+Stream-All-2 = type=generic, timeout=15, script-path=https://raw.githubusercontent.com/mikoycc/surge/main/module/LMT/Stream-All-2.js
