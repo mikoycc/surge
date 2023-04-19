@@ -1,5 +1,5 @@
 #!name=七猫小说
-#!desc=七猫小说解锁会员
+#!desc=解锁七猫小说会员
 
 [MITM]
 hostname = %APPEND% *.wtzw.com
