@@ -1,6 +1,6 @@
 /*************************************
 [rewrite_local]
-^https:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo url script-response-body https://raw.githubusercontent.com/mikoycc/QuantumultX/main/FX/DeJian/djxs.js
+^https:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo url script-response-body https://raw.githubusercontent.com/mikoycc/surge/main/module/djxs/djxs.js
 
 [mitm]
 hostname = dj.palmestore.com
