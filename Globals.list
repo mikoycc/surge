@@ -1,3 +1,5 @@
+#参考：https://github.com/dler-io/Rules/blob/main/Surge/Surge%203/Provider/Proxy.list
+
 # Apple
 DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
 DOMAIN-SUFFIX,smoot.apple.com // Spotlight
