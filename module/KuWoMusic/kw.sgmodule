@@ -1,9 +1,0 @@
-[Script]
-Kw = type=http-response,pattern=https?:\/\/searchrecterm\.kuwo\.cn\/recterm\.s,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js
-Kw = type=http-response,pattern=https?:\/\/mgxhtj\.kuwo\.cn\/mgxh\.s,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js
-Kw = type=http-response,pattern=https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/page\/cells,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js
-Kw = type=http-response,pattern=https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/setting,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js
-Kw = type=http-response,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/dev/raw/main/kuwomusic.js
-
-[MITM]
-hostname= %APPEND% *.kuwo.cn, *.lrts.me
