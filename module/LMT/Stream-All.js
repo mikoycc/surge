@@ -7,7 +7,7 @@ Surge配置参考注释
  ----------------------------------------
  
 [Panel]
-策略面板 = script-name=解锁检测,update-interval=7200
+策略面板 = script-name=解锁检测,update-interval=21600
 
 [Script]
 解锁检测 = type=generic,timeout=30,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Stream-All.js,script-update-interval=0,argument=title=解锁检测&icon=headphones.circle&color=#FF2121
