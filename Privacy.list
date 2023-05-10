@@ -1,4 +1,5 @@
 # Privacy 隐私保护，拒绝
+
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,airpr.com
 DOMAIN-SUFFIX,cr-nielsen.com
@@ -47,7 +48,6 @@ DOMAIN-SUFFIX,woopra.com
 DOMAIN-SUFFIX,wootric.com
 DOMAIN-SUFFIX,wowanalytics.co.uk
 DOMAIN-SUFFIX,zoomanalytics.co
-
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN,analytics.slashdotmedia.com
 DOMAIN,zgsdk.zhugeio.com
