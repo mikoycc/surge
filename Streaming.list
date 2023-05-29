@@ -1,13 +1,24 @@
+# > 4gtv
+DOMAIN-SUFFIX,4gtv.tv
+DOMAIN,4gtvfreepcvod-cds.cdn.hinet.net
+
 # > AbemaTV
-USER-AGENT,AbemaTV*
+DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
-DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,abema-tv.com
+DOMAIN-SUFFIX,hayabusa.dev
 DOMAIN-SUFFIX,hayabusa.io
 DOMAIN-SUFFIX,hayabusa.media
-DOMAIN,api-abematv.bucketeer.jp
-DOMAIN-KEYWORD,abematv.akamaized.net
+DOMAIN-SUFFIX,amebame.com
+DOMAIN-SUFFIX,amebaownd.com
+DOMAIN-SUFFIX,amebaowndme.com
+DOMAIN-SUFFIX,ameblo.jp
+DOMAIN-SUFFIX,dokusho-ojikan.jp
+DOMAIN-SUFFIX,winticket.jp
+
+USER-AGENT,AbemaTV*
 
 # > All 4
 USER-AGENT,All4*
@@ -15,48 +26,73 @@ DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
 
 # > Amazon Prime Video
-USER-AGENT,InstantVideo.US*
-USER-AGENT,Prime%20Video*
+DOMAIN,avodmp4s3ww-a.akamaihd.net
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+DOMAIN,d22qjgkvxw22r6.cloudfront.net
+DOMAIN,d25xi40x97liuc.cloudfront.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
+DOMAIN,d27xxe7juh1us6.cloudfront.net
+
+DOMAIN-KEYWORD,avoddashs
+
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,amazonvideo.com
+DOMAIN-SUFFIX,amazonvideo.cc
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,primevideo.com
-DOMAIN-SUFFIX,pv-cdn.net
-DOMAIN,atv-ps.amazon.com
-DOMAIN,fls-na.amazon.com
-DOMAIN,avodmp4s3ww-a.akamaihd.net
-DOMAIN,d25xi40x97liuc.cloudfront.net
-DOMAIN,dmqdd6hw24ucf.cloudfront.net
-DOMAIN,dmqdd6hw24ucf.cloudfront.net
-DOMAIN,d22qjgkvxw22r6.cloudfront.net
-DOMAIN,d1v5ir2lpwr8os.cloudfront.net
-DOMAIN,d27xxe7juh1us6.cloudfront.net
-# DOMAIN,www.amazon.com
-DOMAIN-KEYWORD,avoddashs
+DOMAIN-SUFFIX,prime-video.com
+DOMAIN-SUFFIX,primevideo.cc
+DOMAIN-SUFFIX,primevideo.info
+DOMAIN-SUFFIX,primevideo.org
+DOMAIN-SUFFIX,primevideo.tv
+DOMAIN-SUFFIX,amazonvideodirect.cc
+DOMAIN-SUFFIX,amazonprimevideos.com
+DOMAIN-SUFFIX,atv-ps.amazon.com
+DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
+DOMAIN-SUFFIX,fls-na.amazon.com
+
+USER-AGENT,InstantVideo.US*
+USER-AGENT,Prime%20Video*
+PROCESS-NAME,com.amazon.avod.thirdpartyclient
 
 # > Apple Music TV
 DOMAIN,tv.applemusic.com
+PROCESS-NAME,music
 
 # > Apple TV
+DOMAIN,ocvideo.apple.com
 DOMAIN,linear.tv.apple.com
 DOMAIN,play-edge.itunes.apple.com
+DOMAIN,np-edge.itunes.apple.com
 DOMAIN,uts-api.itunes.apple.com
+DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,hls.itunes.apple.com
+
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.tv*
+PROCESS-NAME,tv
 
 # > Bahamut
-USER-AGENT,Anime*
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN,bahamut.akamaized.net
 DOMAIN,gamer-cds.cdn.hinet.net
 DOMAIN,gamer2-cds.cdn.hinet.net
 
+DOMAIN-SUFFIX,viblast.com
+
+DOMAIN-SUFFIX,bahamut.com.tw
+DOMAIN-SUFFIX,gamer.com.tw
+
+USER-AGENT,Anime*
+
 # > BBC iPlayer
-USER-AGENT,BBCiPlayer*
-DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
+
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbci.co.uk
+
+USER-AGENT,BBCiPlayer*
 
 # > bilibili Intl
 DOMAIN-SUFFIX,biliintl.com
@@ -65,15 +101,26 @@ DOMAIN,p.bstarstatic.com
 DOMAIN,p-bstarstatic.akamaized.net
 DOMAIN,upos-bstar-mirrorakam.akamaized.net
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,bilibili.tv
+PROCESS-NAME,com.bstar.intl
 
 # > DAZN
-USER-AGENT,DAZN*
-DOMAIN-SUFFIX,dazn.com
+DOMAIN,d151l6v8er5bdm.cloudfront.net
+DOMAIN,d1sgwhnao7452x.cloudfront.net
+
+DOMAIN-KEYWORD,voddazn
+
 DOMAIN-SUFFIX,dazn-api.com
+DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,dazndn.com
 DOMAIN-SUFFIX,indazn.com
-DOMAIN,d151l6v8er5bdm.cloudfront.net
-DOMAIN-KEYWORD,voddazn
+DOMAIN-SUFFIX,indaznlab.com
+
+DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net
+DOMAIN-SUFFIX,dcalivedazn.akamaized.net
+DOMAIN-SUFFIX,dcblivedazn.akamaized.net
+
+USER-AGENT,DAZN*
 
 # > discovery+
 USER-AGENT,DPlus*
@@ -83,7 +130,6 @@ DOMAIN-SUFFIX,discoveryplus.co.uk
 DOMAIN-SUFFIX,discoveryplus.com
 DOMAIN-SUFFIX,discoveryplus.in
 DOMAIN-SUFFIX,dnitv.com
-# DOMAIN,go-prod-vz.akamaized.net
 DOMAIN,x-default-stgec.uplynk.com
 DOMAIN-KEYWORD,discovery.uplynk.com
 
