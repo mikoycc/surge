@@ -17,7 +17,6 @@ DOMAIN-SUFFIX,amebaowndme.com
 DOMAIN-SUFFIX,ameblo.jp
 DOMAIN-SUFFIX,dokusho-ojikan.jp
 DOMAIN-SUFFIX,winticket.jp
-
 USER-AGENT,AbemaTV*
 
 # > All 4
@@ -144,10 +143,30 @@ DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,dzcdn.net
 
 # > encoreTVB
-USER-AGENT,encoreTVB*
-DOMAIN-SUFFIX,encoretvb.com
-DOMAIN,edge.api.brightcove.com
 DOMAIN,bcbolt446c5271-a.akamaihd.net
+DOMAIN,content.jwplatform.com
+DOMAIN,edge.api.brightcove.com
+DOMAIN,videos-f.jwpsrv.com
+
+DOMAIN-SUFFIX,encoretvb.com
+
+USER-AGENT,encoreTVB*
+USER-AGENT,TVer-Release*
+DOMAIN-SUFFIX,tver.jp
+
+# >> Fox Now
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,uplynk.com
+USER-AGENT,FOX%20NOW*
+
+# >> Fox+
+DOMAIN,dashasiafox.akamaized.netflix
+DOMAIN,staticasiafox.akamaized.net
+DOMAIN-SUFFIX,foxplus.com
+DOMAIN-SUFFIX,theplatform.com
+USER-AGENT,FOXPlus*
+
 
 # > JOOX
 USER-AGENT,JOOX*
@@ -171,10 +190,11 @@ DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbomaxcdn.com
 
 # > HBO Asia
-USER-AGENT,HBO%20GO%20PROD*
+DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogoasia.com
 DOMAIN-SUFFIX,hbogoasia.hk
 DOMAIN-KEYWORD,.hbogoasia.
+
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net
 DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net
@@ -184,12 +204,17 @@ DOMAIN,hboasia2-i.akamaihd.net
 DOMAIN,hboasia3-i.akamaihd.net
 DOMAIN,hboasia4-i.akamaihd.net
 DOMAIN,hboasia5-i.akamaihd.net
-DOMAIN,hboasialive.akamaized.net
 DOMAIN,hbogoprod-vod.akamaized.net
-DOMAIN,hbolb.onwardsmg.com
-DOMAIN,hbounify-prod.evergent.com
+DOMAIN,manifest.prod.boltdns.net
 DOMAIN,players.brightcove.net
 DOMAIN,s3-ap-southeast-1.amazonaws.com
+DOMAIN,hboasialive.akamaized.net
+DOMAIN,hbounify-prod.evergent.com
+DOMAIN,hbolb.onwardsmg.com
+
+USER-AGENT,HBO%20GO%20PROD%20HKG*
+
+USER-AGENT,HBO*
 
 # > 华文电视
 USER-AGENT,HWTVMobile*
@@ -246,14 +271,17 @@ DOMAIN,kktv-theater.kk.stream
 DOMAIN,theater-kktv.cdn.hinet.net
 
 # > KKBOX
+DOMAIN-SUFFIX,kfs.io
 DOMAIN-SUFFIX,kkbox.com
 DOMAIN-SUFFIX,kkbox.com.tw
-DOMAIN-SUFFIX,kfs.io
+DOMAIN-SUFFIX,kkbox-prime.com
+DOMAIN-SUFFIX,kktix.com
 
 # > LINE TV
-USER-AGENT,LINE%20TV*
-DOMAIN-SUFFIX,linetv.tw
 DOMAIN,d3c7rimkq79yfu.cloudfront.net
+DOMAIN-SUFFIX,linetv.tw
+USER-AGENT,LINE%20TV*
+PROCESS-NAME,com.linecorp.linetv
 
 # > LiTV
 DOMAIN-SUFFIX,litv.tv
@@ -266,9 +294,14 @@ DOMAIN-SUFFIX,my5.tv
 DOMAIN,d349g9zuie06uo.cloudfront.net
 
 # > myTV SUPER
-USER-AGENT,mytv*
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
+
+USER-AGENT,mytv*
+
+DOMAIN-KEYWORD,nowtv100
+DOMAIN-KEYWORD,rthklive
+
 
 # > Naver TV
 USER-AGENT,Naver%20TV*
@@ -280,6 +313,7 @@ USER-AGENT,Niconico*
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,socdm.com
 
 # > Now E
 DOMAIN-SUFFIX,nowe.com
@@ -368,13 +402,17 @@ USER-AGENT,TIDAL*
 DOMAIN-SUFFIX,tidal.com
 
 # > ViuTV
-USER-AGENT,Viu*
-DOMAIN-SUFFIX,viu.com
-DOMAIN-SUFFIX,viu.tv
 DOMAIN,api.viu.now.com
 DOMAIN,d1k2us671qcoau.cloudfront.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
 DOMAIN,dfp6rglgjqszk.cloudfront.net
+DOMAIN-SUFFIX,viu.com
+DOMAIN-SUFFIX,viu.now.com
+DOMAIN-SUFFIX,viu.tv
+PROCESS-NAME,com.viu.pad
+PROCESS-NAME,com.viu.phone
+PROCESS-NAME,com.vuclip.viu
+USER-AGENT,Viu*
 
 # > WeTV
 USER-AGENT,WeTV*
