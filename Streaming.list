@@ -369,6 +369,7 @@ DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
 DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,sgpstatp.com
@@ -377,8 +378,10 @@ DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-KEYWORD,-tiktokcdn-com
+DOMAIN-KEYWORD,musical.ly
+DOMAIN-KEYWORD,tiktok
 USER-AGENT,TikTok*
+PROCESS-NAME,com.zhiliaoapp.musically
 
 # > 台湾好
 USER-AGENT,TaiwanGood*
