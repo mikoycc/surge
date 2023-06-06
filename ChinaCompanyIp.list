@@ -1,4 +1,4 @@
-# 中国云服务商ip端
+# 中国云服务商ip端 https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/ChinaCompanyIp.list
 # 阿里
 IP-CIDR,8.128.0.0/10,no-resolve
 IP-CIDR,8.208.0.0/12,no-resolve
