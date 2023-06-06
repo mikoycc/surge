@@ -25,35 +25,27 @@ DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,channel4.com
 
 # > Amazon Prime Video
+DOMAIN-KEYWORD,avoddashs
+DOMAIN,atv-ps.amazon.com
 DOMAIN,avodmp4s3ww-a.akamaihd.net
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
+DOMAIN,d1xfray82862hr.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d25xi40x97liuc.cloudfront.net
-DOMAIN,dmqdd6hw24ucf.cloudfront.net
 DOMAIN,d27xxe7juh1us6.cloudfront.net
-
-DOMAIN-KEYWORD,avoddashs
-
+DOMAIN,d3196yreox78o9.cloudfront.net
+DOMAIN,dmqdd6hw24ucf.cloudfront.net
+DOMAIN,ktpx.amazon.com
+DOMAIN-SUFFIX,aboutamazon.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
+DOMAIN-SUFFIX,amazon.jobs
+DOMAIN-SUFFIX,amazonuniversity.jobs
 DOMAIN-SUFFIX,amazonvideo.com
-DOMAIN-SUFFIX,amazonvideo.cc
 DOMAIN-SUFFIX,media-amazon.com
-DOMAIN-SUFFIX,primevideo.com
-DOMAIN-SUFFIX,prime-video.com
-DOMAIN-SUFFIX,primevideo.cc
-DOMAIN-SUFFIX,primevideo.info
-DOMAIN-SUFFIX,primevideo.org
-DOMAIN-SUFFIX,primevideo.tv
-DOMAIN-SUFFIX,amazonvideodirect.cc
-DOMAIN-SUFFIX,amazonprimevideos.com
-DOMAIN-SUFFIX,atv-ps.amazon.com
-DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
-DOMAIN-SUFFIX,fls-na.amazon.com
-
-USER-AGENT,InstantVideo.US*
-USER-AGENT,Prime%20Video*
-PROCESS-NAME,com.amazon.avod.thirdpartyclient
+DOMAIN-SUFFIX,pv-cdn.net
+DOMAIN-SUFFIX,seattlespheres.com
+URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
 
 # > Apple Music TV
 DOMAIN,tv.applemusic.com
@@ -67,7 +59,6 @@ DOMAIN,np-edge.itunes.apple.com
 DOMAIN,uts-api.itunes.apple.com
 DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
-
 USER-AGENT,AppleTV*
 USER-AGENT,com.apple.tv*
 PROCESS-NAME,tv
