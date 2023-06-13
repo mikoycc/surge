@@ -1,5 +1,5 @@
-#!name=witch去广告
-#!desc=去除witch内广告
+#!name=twitch去广告
+#!desc=去除twitch内广告
 
 [MITM]
 hostname = %APPEND% *twitch.tv,api.twitch.tv
