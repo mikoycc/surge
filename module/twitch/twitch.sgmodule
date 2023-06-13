@@ -5,4 +5,4 @@
 hostname = %APPEND% *twitch.tv,api.twitch.tv
 
 [Script]
-twitch_adblock = type=http-response,pattern=^https?:\/\/(client-ID|gql|api|gqlx).*(ads-serve|videoad)\.tv.*\n,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mikoycc/surge/main/module/witch/witch_adblock.js
+twitch_adblock = type=http-response,pattern=^https?:\/\/(client-ID|gql|api|gqlx).*(ads-serve|videoad)\.tv.*\n,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/mikoycc/surge/main/module/twitch/twitch_adblock.js
