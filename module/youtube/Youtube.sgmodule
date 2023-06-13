@@ -13,7 +13,8 @@
 # 不支持 Mock 的客户端可以用 reject-200/reject-img 替代
 
 # > Credit
-# @Choler & @DivineEngine & @app2smile
+# @Choler, @DivineEngine, @app2smile, @Maasea 
+# 原始仓库：https://github.com/Maasea/sgmodule/blob/master/YoutubeAds.sgmodule
 
 [Script]
 youtube.request = type=http-request,pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\?,requires-body=1,max-size=-1,binary-body-mode=1,script-path=https://raw.githubusercontent.com/mikoycc/surge/main/module/youtube/youtube.request.beta.js
