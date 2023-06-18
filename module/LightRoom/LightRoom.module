@@ -1,5 +1,5 @@
-#!name=Lightroom
-#!desc=解锁Lightroom
+#!name=LightRoom
+#!desc=解锁LightRoom
 
 [MITM]
 hostname = %APPEND% photos.adobe.io
