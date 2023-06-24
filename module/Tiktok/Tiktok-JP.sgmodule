@@ -1,9 +1,18 @@
 #!name=TikTok JP
-#!desc=解锁 TikTok 日本 地区
-#!openUrl=https://github.com/Semporia/TikTok-Unlock
-#!author=Semporia
-#!homepage=https://github.com/Semporia/TikTok-Unlock
-#!icon= https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
+#!desc=解锁日本 
+
+[Rule]
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-KEYWORD,-tiktokcdn-com
+USER-AGENT,tiktok*
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307
