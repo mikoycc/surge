@@ -27,7 +27,6 @@ USER-AGENT, TikTok*,Tiktok
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
 [Script]
-http-response https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite) script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/Tiktok.js, requires-body=true, timeout=10, tag=TK去水印
-
+TK去水印 = type=http-response,pattern=https?:\/\/.*\.tiktokv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list|aweme\/favorite),requires-body=1,script-path=https://raw.githubusercontent.com/0xinfinitykernel/LearnSomething/main/OS/IOS/Application/TikTok/Remove%20Mask/k8.js
 [MITM]
 hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
