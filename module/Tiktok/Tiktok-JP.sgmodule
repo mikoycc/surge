@@ -2,23 +2,23 @@
 #!desc=解锁日本 
 
 [Rule]
-DOMAIN, p16-tiktokcdn-com.akamaized.net,Tiktok
-DOMAIN-SUFFIX, byteoversea.com,Tiktok
-DOMAIN-SUFFIX, ibytedtos.com,Tiktok
-DOMAIN-SUFFIX, ibyteimg.com,Tiktok
-DOMAIN-SUFFIX, ipstatp.com,Tiktok
-DOMAIN-SUFFIX, isnssdk.com,Tiktok
-DOMAIN-SUFFIX, muscdn.com,Tiktok
-DOMAIN-SUFFIX, musical.ly,Tiktok
-DOMAIN-SUFFIX, sgpstatp.com,Tiktok
-DOMAIN-SUFFIX, snssdk.com,Tiktok
-DOMAIN-SUFFIX, tik-tokapi.com,Tiktok
-DOMAIN-SUFFIX, tiktok.com,Tiktok
-DOMAIN-SUFFIX, tiktokcdn.com,Tiktok
-DOMAIN-SUFFIX, tiktokv.com,Tiktok
-DOMAIN-KEYWORD, musical.ly,Tiktok
-DOMAIN-KEYWORD, tiktok,Tiktok
-USER-AGENT, TikTok*,Tiktok
+DOMAIN, p16-tiktokcdn-com.akamaized.net,日本
+DOMAIN-SUFFIX, byteoversea.com,日本
+DOMAIN-SUFFIX, ibytedtos.com,日本
+DOMAIN-SUFFIX, ibyteimg.com,日本
+DOMAIN-SUFFIX, ipstatp.com,日本
+DOMAIN-SUFFIX, isnssdk.com,日本
+DOMAIN-SUFFIX, muscdn.com,日本
+DOMAIN-SUFFIX, musical.ly,日本
+DOMAIN-SUFFIX, sgpstatp.com,日本
+DOMAIN-SUFFIX, snssdk.com,日本
+DOMAIN-SUFFIX, tik-tokapi.com,日本
+DOMAIN-SUFFIX, tiktok.com,日本
+DOMAIN-SUFFIX, tiktokcdn.com,日本
+DOMAIN-SUFFIX, tiktokv.com,日本
+DOMAIN-KEYWORD, musical.ly,日本
+DOMAIN-KEYWORD, tiktok,日本
+USER-AGENT, TikTok*,日本
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307
