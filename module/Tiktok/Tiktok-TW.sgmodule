@@ -1,6 +1,25 @@
 #!name=TikTok-TW
 #!desc=解锁台湾
 
+[Rule]
+DOMAIN, p16-tiktokcdn-com.akamaized.net,Tiktok
+DOMAIN-SUFFIX, byteoversea.com,Tiktok
+DOMAIN-SUFFIX, ibytedtos.com,Tiktok
+DOMAIN-SUFFIX, ibyteimg.com,Tiktok
+DOMAIN-SUFFIX, ipstatp.com,Tiktok
+DOMAIN-SUFFIX, isnssdk.com,Tiktok
+DOMAIN-SUFFIX, muscdn.com,Tiktok
+DOMAIN-SUFFIX, musical.ly,Tiktok
+DOMAIN-SUFFIX, sgpstatp.com,Tiktok
+DOMAIN-SUFFIX, snssdk.com,Tiktok
+DOMAIN-SUFFIX, tik-tokapi.com,Tiktok
+DOMAIN-SUFFIX, tiktok.com,Tiktok
+DOMAIN-SUFFIX, tiktokcdn.com,Tiktok
+DOMAIN-SUFFIX, tiktokv.com,Tiktok
+DOMAIN-KEYWORD, musical.ly,Tiktok
+DOMAIN-KEYWORD, tiktok,Tiktok
+USER-AGENT, TikTok*,Tiktok
+
 [URL Rewrite]
 (?<=_region=)CN(?=&) TW 307
 (?<=&mcc_mnc=)4 2 307
