@@ -1,5 +1,5 @@
 #!name=TikTok-TW
-#!desc=解锁台灣
+#!desc=解锁台湾
 
 [Rule]
 DOMAIN,p16-tiktokcdn-com.akamaized.net
