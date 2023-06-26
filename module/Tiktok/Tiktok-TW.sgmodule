@@ -2,23 +2,23 @@
 #!desc=解锁台湾
 
 [Rule]
-DOMAIN, p16-tiktokcdn-com.akamaized.net,Tiktok
-DOMAIN-SUFFIX, byteoversea.com,Tiktok
-DOMAIN-SUFFIX, ibytedtos.com,Tiktok
-DOMAIN-SUFFIX, ibyteimg.com,Tiktok
-DOMAIN-SUFFIX, ipstatp.com,Tiktok
-DOMAIN-SUFFIX, isnssdk.com,Tiktok
-DOMAIN-SUFFIX, muscdn.com,Tiktok
-DOMAIN-SUFFIX, musical.ly,Tiktok
-DOMAIN-SUFFIX, sgpstatp.com,Tiktok
-DOMAIN-SUFFIX, snssdk.com,Tiktok
-DOMAIN-SUFFIX, tik-tokapi.com,Tiktok
-DOMAIN-SUFFIX, tiktok.com,Tiktok
-DOMAIN-SUFFIX, tiktokcdn.com,Tiktok
-DOMAIN-SUFFIX, tiktokv.com,Tiktok
-DOMAIN-KEYWORD, musical.ly,Tiktok
-DOMAIN-KEYWORD, tiktok,Tiktok
-USER-AGENT, TikTok*,Tiktok
+DOMAIN, p16-tiktokcdn-com.akamaized.net,台湾
+DOMAIN-SUFFIX, byteoversea.com,台湾
+DOMAIN-SUFFIX, ibytedtos.com,台湾
+DOMAIN-SUFFIX, ibyteimg.com,台湾
+DOMAIN-SUFFIX, ipstatp.com,台湾
+DOMAIN-SUFFIX, isnssdk.com,台湾
+DOMAIN-SUFFIX, muscdn.com,台湾
+DOMAIN-SUFFIX, musical.ly,台湾
+DOMAIN-SUFFIX, sgpstatp.com,台湾
+DOMAIN-SUFFIX, snssdk.com,台湾
+DOMAIN-SUFFIX, tik-tokapi.com,台湾
+DOMAIN-SUFFIX, tiktok.com,台湾
+DOMAIN-SUFFIX, tiktokcdn.com,台湾
+DOMAIN-SUFFIX, tiktokv.com,台湾
+DOMAIN-KEYWORD, musical.ly,台湾
+DOMAIN-KEYWORD, tiktok,台湾
+USER-AGENT, TikTok*,台湾
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) TW 307
