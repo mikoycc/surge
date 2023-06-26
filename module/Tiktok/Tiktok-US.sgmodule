@@ -2,23 +2,23 @@
 #!desc=解锁美国
 
 [Rule]
-DOMAIN, p16-tiktokcdn-com.akamaized.net,Tiktok
-DOMAIN-SUFFIX, byteoversea.com,Tiktok
-DOMAIN-SUFFIX, ibytedtos.com,Tiktok
-DOMAIN-SUFFIX, ibyteimg.com,Tiktok
-DOMAIN-SUFFIX, ipstatp.com,Tiktok
-DOMAIN-SUFFIX, isnssdk.com,Tiktok
-DOMAIN-SUFFIX, muscdn.com,Tiktok
-DOMAIN-SUFFIX, musical.ly,Tiktok
-DOMAIN-SUFFIX, sgpstatp.com,Tiktok
-DOMAIN-SUFFIX, snssdk.com,Tiktok
-DOMAIN-SUFFIX, tik-tokapi.com,Tiktok
-DOMAIN-SUFFIX, tiktok.com,Tiktok
-DOMAIN-SUFFIX, tiktokcdn.com,Tiktok
-DOMAIN-SUFFIX, tiktokv.com,Tiktok
-DOMAIN-KEYWORD, musical.ly,Tiktok
-DOMAIN-KEYWORD, tiktok,Tiktok
-USER-AGENT, TikTok*,Tiktok
+DOMAIN, p16-tiktokcdn-com.akamaized.net,美国
+DOMAIN-SUFFIX, byteoversea.com,美国
+DOMAIN-SUFFIX, ibytedtos.com,美国
+DOMAIN-SUFFIX, ibyteimg.com,美国
+DOMAIN-SUFFIX, ipstatp.com,美国
+DOMAIN-SUFFIX, isnssdk.com,美国
+DOMAIN-SUFFIX, muscdn.com,美国
+DOMAIN-SUFFIX, musical.ly,美国
+DOMAIN-SUFFIX, sgpstatp.com,美国
+DOMAIN-SUFFIX, snssdk.com,美国
+DOMAIN-SUFFIX, tik-tokapi.com,美国
+DOMAIN-SUFFIX, tiktok.com,美国
+DOMAIN-SUFFIX, tiktokcdn.com,美国
+DOMAIN-SUFFIX, tiktokv.com,美国
+DOMAIN-KEYWORD, musical.ly,美国
+DOMAIN-KEYWORD, tiktok,美国
+USER-AGENT, TikTok*,美国
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) US 307
