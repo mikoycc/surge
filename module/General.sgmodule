@@ -31,8 +31,10 @@
 # Redirect False to True
 # > Firefox - www.firefox.com.cn
 ^https?:\/\/(www.)?firefox\.com\.cn\/(download\/)?$ https://www.mozilla.org/zh-CN/firefox/new/ 302
+
 # > IGN China to IGN Global
 ^https?:\/\/(www.)?ign\.xn--fiqs8s\/ http://cn.ign.com/ccpref/us 302
+
 # > Fake Website Made By C&J Marketing
 ^https?:\/\/(www.)?abbyychina\.com\/ https://www.abbyy.cn/ 302
 ^https?:\/\/(www.)?alienskins\.cn\/ https://exposure.software/ 302
