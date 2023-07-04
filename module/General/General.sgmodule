@@ -1,5 +1,5 @@
 #!name=URL Redirect
-#!desc=重定向
+#!desc=复写
 
 [URL Rewrite]
 # Redirect Google Search Service
