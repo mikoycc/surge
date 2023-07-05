@@ -1,5 +1,0 @@
-#!name=MitM All Hostnames
-#!desc=在所有端口为443的主机名上执行MitM，但苹果和其他无法检查的常见站点除外。
-
-[MITM]
-hostname = -*.apple.com, -*.icloud.com.cn,-*.icloud.com, -*.mzstatic.com, -*.crashlytics.com, -*.facebook.com, -*.instagram.com, -ap-*.spotify.com, -<ip-address>, *:0
