@@ -1,7 +1,8 @@
-[rewrite_local]
+#!name=PhotoshopExpress
+#!desc=解锁PhotoshopExpress
 
+[rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/alsoeoe/Dryinfo/main/eoe/Picsew.js
 
 [mitm]
-
 hostname = buy.itunes.apple.com
