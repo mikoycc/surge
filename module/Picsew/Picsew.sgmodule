@@ -1,5 +1,5 @@
-#!name=PhotoshopExpress
-#!desc=解锁PhotoshopExpress
+#!name=Picsew
+#!desc=解锁Picsew
 
 [rewrite_local]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/mikoycc/surge/main/module/Picsew/Picsew.js
